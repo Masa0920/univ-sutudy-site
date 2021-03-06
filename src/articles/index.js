@@ -1,0 +1,1 @@
+export { default as Article1 } from './Article1'
