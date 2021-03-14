@@ -37,7 +37,7 @@ margin: 0 auto;
 }
 .w400 {
 display: inline-block;
-width: 400px;
+width: 335px;
 margin: 0 auto;
 }
 .w450 {
@@ -150,6 +150,12 @@ border-radius: 10px;
 .font-weight600 {font-weight: 600;}
 
 /* 骨格 */
+.relative {position: relative;}
+.absolute {position: absolute;}
+.absolute-right {
+  position: absolute;
+  right: 15px;
+}
 .content {
   width: 90%;
   max-width: 1500px;
@@ -157,6 +163,13 @@ border-radius: 10px;
 }
 .blank {height: 50px;}
 .blank-small  {height: 30px;}
+.flex {display: flex;}
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  }
+.flex-grow1 {flex-grow: 1;}
 /* textAlign */
 .right {text-align: right;}
 .left {text-align: left;}

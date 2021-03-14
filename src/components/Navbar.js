@@ -1,19 +1,14 @@
 import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {
    return (
-      <div className="margin10 padding10 font-weight600 back-skyblue">
-         <Container>
-            <Row>
-               <Col className="left" >北大情エレ2年情報まとめ</Col>
-               <Link to={'/'} >
-                  <Col className="" xs={6}>HOME</Col>
-               </Link>
-               <Col className="right" >osamu</Col>
-            </Row>
-         </Container>
+      <div className="flex margin10 padding20 font-weight600 back-skyblue">
+         <div className="left absolute">北大情エレ2年</div>
+         <Link className="margin-auto" to={'/'} >
+            <div>HOME</div>
+         </Link>
+         {/* <div className="right absolute-right">osamu</div> */}
       </div>
    )
 }

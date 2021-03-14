@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const ArticleCard = (props) => {
    return (
-      <div>
+      <div className="margin10" >
          <Card border="primary" style={{ width: '18rem' }}>
          <Card.Body>
             <Card.Title className="underline" > {props.title} </Card.Title>
